@@ -1,0 +1,70 @@
+#p1{
+	line-height: 25px;
+	margin-left: 20px;
+}
+
+#name{
+	width: 200px;
+	margin-left: 100px;
+}
+
+#d{
+	display: flex;
+}
+
+#radio1{
+	margin-left: 120px;
+
+}
+
+#slct{
+	margin-left: 150px;
+}
+
+#ta{
+	width: 500px;
+}
+
+@media all and (max-width: 360px){
+	#p1{
+		line-height: 20px;
+		margin-left: 15px;
+	}
+
+
+	#name{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#radio1{
+		margin-left: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#radio2{
+		margin-left: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	#slct{
+		width: 100%;
+		margin-left: 0px;
+
+	}
+
+	#ta{
+		width: 100%px;
+
+	}
+	
+	#d{
+		display: flex;
+		flex-direction: column;
+	}	
+}
+
+}
